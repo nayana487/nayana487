@@ -1,2 +1,0 @@
-# Nayana's homepage
-=========

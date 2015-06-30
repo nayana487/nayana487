@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <h1>Nayana's Webpage</h1>
+  <img id="pic" src="https://pbs.twimg.com/profile_images/573366430575403010/MQDAKTbL.jpeg">
+  <h3>Want to know more about me?</h3>
+    <p id="about">My name is <a href ="http://nayanadavis.com">Nayana Davis</a> and I'm a journalism graduate student at Georgetown University. I'm interested in becoming a web developer working in the media sphere. I had worked for three years as a journalist, but returned to school to acquire digital skills. In my spare time, I enjoy taking barre classes, traveling and getting to know my adopted city of DC.</p>
+    <h3 class="inline">Want to get in touch?</h3>
+    <p class="inline" id="textbutton" onclick="showtext()">Show Text</p>
+    <ul id="contactList">
+      <li>Phone Number: 410-206-6374</li>
+      <li>Email: nayana487@gmail.com</li>
+    </ul>
+    <div id="commentdiv">
+      <h2>Leave a comment</h2>
+      <ul id="commentslist"></ul>
+      <h3>Add Comment</h3>
+      <p>Name:</p>
+      <input id="nameinput" type="text">
+      <p>Comment:</p>
+      <textarea id="commenttext"></textarea>
+      <br>
+      <br>
+      <button type="button" onclick="addcomment()">Add to Comments</button>
+    </div>
+
+   <script src="js/about_me.js"></script>
+</body>
+</html>
